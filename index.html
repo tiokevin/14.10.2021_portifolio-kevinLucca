@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/profile-julimar.jpg" rel="icon">
+    <title>Portifólio de Kevin Lucca</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <section id="sessao1">
+            <picture>
+                <a style="align-items:center; -webkit-tap-highlight-color: transparent;" href="#sessao2" class="botao-descer"><img src="img/down.gif"></img></a>
+                <a href="#sessao1" class="botaosuave" id="btn-topo"><img src="img/top.gif"></img></a>
+                <source  media="max-width:1296px" srcset="img/1.jpg">
+                <img class="wpp1" src="img/1.jpg" alt="1">
+            </picture>
+    </section>
+        
+    <section id="sessao2">
+            <picture>
+                <source  media="max-width:1296px" srcset="img/2.jpg">
+                <img class="wpp1" src="img/2.jpg" alt="1">
+            </picture>
+    </section>
+
+    <section id="sessao3">
+        <picture>
+            <source  media="max-width:1296px" srcset="img/3.jpg">
+            <img class="wpp1" src="img/3.jpg" alt="1">
+        </picture>
+    </section>
+
+</body>
+</html>
+
+<!--scroll-suave-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<script>
+var $doc = $('html, body');
+$('a').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 700);
+    return false;
+});
+</script>
+
+<script type="text/javascript">
+  $(function () {
+      $(window).scroll(function () {
+          if ($(this).scrollTop() > 400) {
+              $('.botaosuave').fadeIn();
+          } else {
+              $('.botaosuave').fadeOut();
+          }
+      });
+  });
+</script>

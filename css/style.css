@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-color:#0d0d0d;
+}
+
+.wpp1 {
+    width: 1384px;
+}
+
+.botao-descer {
+    position:absolute;
+    margin-top:40rem;
+    margin-left:41rem;
+    border-radius: 30px;
+    width: 10px;
+    height: 10px;
+    transition: all ease-in-out 0.4s;
+  }
+
+  .botao-descer img {
+    width: 50px;
+  }
+
+
+  #btn-topo {
+    margin-right: 1200px;
+    margin-top:45rem; 
+    float:right; 
+    position:fixed; 
+   -webkit-tap-highlight-color: transparent;
+  }
+
+  #btn-topo img {
+    width: 30px;
+  }
+
+  #btn-topo1 {
+    margin-right: 100px;
+    margin-top:45rem; 
+    float:left; 
+    position:fixed; 
+   -webkit-tap-highlight-color: transparent;
+  }
+
+  #btn-topo1 img {
+    width: 30px;
+  }
