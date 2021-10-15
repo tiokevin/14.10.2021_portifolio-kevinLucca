@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); /*fonte poppins 700*/
 
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-left:0px;
 }
 
 body {
@@ -15,8 +18,8 @@ body {
 
 .botao-descer {
     position:absolute;
-    margin-top:40rem;
-    margin-left:41rem;
+    margin-top:45rem;
+    margin-left:80rem;
     border-radius: 30px;
     width: 10px;
     height: 10px;
@@ -24,7 +27,7 @@ body {
   }
 
   .botao-descer img {
-    width: 50px;
+    width: 100px;
   }
 
 
@@ -40,14 +43,47 @@ body {
     width: 30px;
   }
 
-  #btn-topo1 {
-    margin-right: 100px;
-    margin-top:45rem; 
-    float:left; 
-    position:fixed; 
-   -webkit-tap-highlight-color: transparent;
+  .sessao1 {
+    
   }
 
-  #btn-topo1 img {
-    width: 30px;
+  .sessao2 {
+
+  }
+
+  .sessao3 {
+
+  }
+
+  .sessao4 {
+
+  }
+
+      .sessao4 a {
+        position: absolute;
+        margin-left: 35rem;
+        margin-top: 37rem;
+        color:white;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+      }
+
+      .sessao4 h1 {
+        position: absolute;
+        background: linear-gradient(to bottom, #3e82f1  0%,  #ac25cd 100%); 
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'poppins' , sans-serif;
+      }
+
+      .ss4-link {
+        position: absolute;
+        margin-top:-29px;
+        margin-left:-32px;
+        width: 310px;
+      }
+
+  .sessao5 {
+
   }
