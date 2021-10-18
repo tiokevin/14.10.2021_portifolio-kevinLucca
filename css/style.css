@@ -309,14 +309,16 @@ body {
         margin-top:11rem;
         margin-left:5rem;
         transition: all ease-in-out 0.4s;
+        -webkit-tap-highlight-color: transparent;
       }
-      .social:hover {
-        position: absolute;
-        margin-top:11.1rem;
-        margin-left:4.9rem;
-        opacity: 80%;
-        transition: all ease-in-out 0.4s;
-      }
+                .social:hover {
+                  position: absolute;
+                  margin-top:11.1rem;
+                  margin-left:4.9rem;
+                  opacity: 80%;
+                  transition: all ease-in-out 0.4s;
+                  -webkit-tap-highlight-color: transparent;
+                }
       .roma {
         position: absolute;
         width: 20rem;
@@ -327,6 +329,7 @@ body {
         cursor:pointer;
         border-radius: 50%;
         filter: blur(5px);
+        -webkit-tap-highlight-color: transparent;
       }
               .roma:hover {
                 position: absolute;
@@ -339,6 +342,7 @@ body {
                 border-radius:10%;
                 filter: blur(0px);
                 cursor:zoom-in;
+                -webkit-tap-highlight-color: transparent;
               }
       .dheefry {
         position: absolute;
@@ -350,6 +354,7 @@ body {
         cursor:pointer;
         border-radius:50%;
         filter: blur(5px);
+        -webkit-tap-highlight-color: transparent;
       }
               .dheefry:hover {
                 position: absolute;
@@ -362,6 +367,7 @@ body {
                 border-radius:10%;
                 filter: blur(0px);
                 cursor:zoom-in;
+                -webkit-tap-highlight-color: transparent;
               }
       .promocao {
         position: absolute;
@@ -373,6 +379,7 @@ body {
         cursor:pointer;
         border-radius:50%;
         filter: blur(5px);
+        -webkit-tap-highlight-color: transparent;
       }
               .promocao:hover {
                 position: absolute;
@@ -385,6 +392,7 @@ body {
                 border-radius:10%;
                 filter: blur(0px);
                 cursor:zoom-in;
+                -webkit-tap-highlight-color: transparent;
               }
       .element6 {
         position: absolute;
@@ -554,13 +562,562 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #2B2B2B;
+  background-color: #1d1d1d;
   z-index:999;
   }
           
-          #preloader .inner {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+#preloader .inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+@media (min-width:1920px) {
+  .botao-descer {
+    position:absolute;
+    margin-top:55rem;
+    margin-left:99rem;
+    border-radius: 30px;
+    width: 15px;
+    height: 15px;
+    transition: all ease-in-out 0.4s;
+  }
+
+  .botao-descer img {
+    width: 100px;
+  }
+
+
+  #btn-topo {
+    margin-right: 1200px;
+    margin-top:55rem; 
+    float:right; 
+    position:fixed; 
+   -webkit-tap-highlight-color: transparent;
+  }
+
+  #btn-topo img {
+    width: 40px;
+  }
+
+  .sessao1 {
+    margin-bottom: 10rem;
+  }
+        .main-header {
+          position: absolute;
+          margin-top: 20px;
+          margin-left: 170px;
+          width: 1320px;
+          transition: all ease-in-out 0.5s;
+        }
+        .main-header:hover {
+          position: absolute;
+          margin-top: 20px;
+          margin-left: 170px;
+          width: 1325px;
+          opacity: 80%;
+          transition: all ease-in-out 0.5s;
+        }
+        .element1 {
+          position: absolute;
+          margin-top: 34rem;
+          width: 30rem;
+          margin-left:70rem;
+          transition: all ease-in-out 0.5s;
+        }
+        .element1:hover {
+          position: absolute;
+          margin-top: 34.3rem;
+          width: 30rem;
+          margin-left:70.3rem;
+          opacity: 80%;
+          transition: all ease-in-out 0.5s;
+        }
+        .text-portifolio {
+          position: absolute;
+          width: 1680px;
+          transition: all ease-in-out 0.5s;
+        }
+        .text-portifolio:hover {
+          position: absolute;
+          width: 1684px;
+          transition: all ease-in-out 0.5s;
+        }
+  .sessao2 {
+    margin-bottom:10rem;
+  }
+              .element2 {
+                position: absolute;
+                margin-top: 22rem;
+                margin-left: 30rem;
+                width: 50rem;
+                transition: all ease-in-out 0.5s;
+              }
+              .element2:hover {
+                position: absolute;
+                margin-top: 22rem;
+                margin-left: 30.3rem;
+                width: 50rem;
+                opacity: 80%;
+                transition: all ease-in-out 0.5s;
+              }
+              .element3 {
+                position: absolute;
+                margin-top: 35rem;
+                margin-left: 1rem;
+                width: 20rem;
+                transition: all ease-in-out 0.5s;
+              }
+              .element3:hover {
+                position: absolute;
+                margin-top: 35rem;
+                margin-left: 1.3rem;
+                opacity: 80%;
+                transition: all ease-in-out 0.5s;
+              }
+              .introducao1 {
+                position: absolute;
+                margin-top: 8.5rem;
+                margin-left: 3rem;
+                transition: all ease-in-out 0.5s;
+              }
+              .introducao1:hover {
+                position: absolute;
+                margin-top: 8.6rem;
+                margin-left: 3.2rem;
+                transition: all ease-in-out 0.5s;
+              }
+              .ola {
+                position: absolute;
+                margin-top: 10rem;
+                margin-left: 5.2rem;
+                width: 65rem;
+                transition: all ease-in-out 0.5s;
+              }
+              .ola:hover {
+                position: absolute;
+                margin-top: 10.2rem;
+                margin-left: 5.3rem;
+                opacity: 90%;
+                transition: all ease-in-out 0.5s;
+              }
+              .introducao2 {
+                position: absolute;
+                margin-top:33rem;
+                margin-left:85rem;
+                transition: all ease-in-out 0.5s;
+              }
+              .introducao2:hover {
+                position: absolute;
+                margin-top:33.2rem;
+                margin-left:85.2rem;
+                transition: all ease-in-out 0.5s;
+              }
+              .hello{
+                position: absolute;
+                margin-top:34rem;
+                margin-left: 33.7rem;
+                width: 65rem;
+                transition: all ease-in-out 0.5s;
+              }
+              .hello:hover {
+                position: absolute;
+                margin-top:34.2rem;
+                margin-left: 33.5rem;
+                opacity: 80%;
+                transition: all ease-in-out 0.5s;
+              }
+    .sessao3 {
+      margin-bottom: 10rem;
+    }
+            
+                    .ss3-email {
+                      position: absolute;
+                      margin-top:560px;
+                      width: 5rem;
+                      margin-left:380px;
+                      transition: all ease-in-out 0.4s;
+                    }
+            
+                    .ss3-behance {
+                      position: absolute;
+                      margin-top:560px;
+                      margin-left:280px;
+                      width: 5rem;
+                      transition: all ease-in-out 0.4s;
+                    }
+            
+                    .ss3-whatsapp {
+                      position: absolute;
+                      margin-top:560px;
+                      margin-left:180px;
+                      width: 5rem;
+                      transition: all ease-in-out 0.4s;
+                    }
+            
+                    .ss3-instagram {
+                      position: absolute;
+                      margin-top:560px;
+                      margin-left:80px;
+                      width: 5rem;
+                      transition: all ease-in-out 0.4s;
+                    }
+            
+                              a:hover {
+                                opacity: 60%;
+                                transition: all ease-in-out 0.4s;
+                              }
+                    .foto-perfil {
+                      position:absolute;
+                      margin-top:7rem;
+                      margin-left:5.7rem;
+                      transition: all ease-in-out 0.6s;
+                    }
+                    .laboral {
+                      position:absolute;
+                      margin-top:7.4rem;
+                      margin-left:29.5rem;
+                      width: 40rem;
+                      transition: all ease-in-out 0.6s;
+                    }
+                    .habilidade {
+                      position:absolute;
+                      margin-top:7.4rem;
+                      margin-left:70rem;
+                      width: 25rem;
+                      transition: all ease-in-out 0.6s;
+                    }
+                    .software {
+                      position:absolute;
+                      margin-top:31rem;
+                      margin-left:28rem;
+                      transition: all ease-in-out 0.6s;
+                    }
+                    .element4 {
+                      position:absolute;
+                      margin-top:36rem;
+                      margin-left:6.6rem;
+                      width: 93rem;
+                      transition: all ease-in-out 0.6s;
+                    }
+                    .foto-perfil:hover {
+                      position:absolute;
+                      margin-top:7rem;
+                      margin-left:5.9rem;
+                      opacity: 80%;
+                      transition: all ease-in-out 0.6s;
+                    }
+                    .laboral:hover {
+                      position:absolute;
+                      margin-top:7.6rem;
+                      margin-left:29.7rem;
+                      opacity: 80%;
+                      transition: all ease-in-out 0.6s;
+                    }
+                    .habilidade:hover {
+                      position:absolute;
+                      margin-top:7.6rem;
+                      margin-left:70.2rem;
+                      opacity: 80%;
+                      transition: all ease-in-out 0.6s;
+                    }
+                    .software:hover {
+                      position:absolute;
+                      margin-top:31.2rem;
+                      margin-left:28.2rem;
+                      opacity: 80%;
+                      transition: all ease-in-out 0.6s;
+                    }
+                    .element4:hover {
+                      position:absolute;
+                      margin-top:36.2rem;
+                      margin-left:6.6rem;
+                      opacity: 80%;
+                      transition: all ease-in-out 0.6s;
+                    }
+      .sessao4 {
+        margin-bottom: 10rem;
+      }
+                  
+                        .ss4-link {
+                          position: absolute;
+                          margin-top:8rem;
+                          margin-left:3.5rem;
+                          width: 410px;
+                          transition: all ease-in-out 0.4s;
+                        }
+                        .ss4-link:hover {
+                          position: absolute;
+                          margin-top:8rem;
+                          margin-left:3.5rem;
+                          width: 410px;
+                          opacity: 60%;
+                          transition: all ease-in-out 0.4s;
+                        }
+                        .social {
+                          position: absolute;
+                          margin-top:11rem;
+                          margin-left:5rem;
+                          width: 30rem;
+                          transition: all ease-in-out 0.4s;
+                          -webkit-tap-highlight-color: transparent;
+                        }
+                                  .social:hover {
+                                    position: absolute;
+                                    margin-top:11.1rem;
+                                    margin-left:4.9rem;
+                                    opacity: 80%;
+                                    transition: all ease-in-out 0.4s;
+                                    -webkit-tap-highlight-color: transparent;
+                                  }
+                        .roma {
+                          position: absolute;
+                          width: 26rem;
+                          margin-top:15rem;
+                          opacity: 70%;
+                          margin-left:38rem;
+                          transition: all ease-in-out 0.4s;
+                          cursor:pointer;
+                          border-radius: 50%;
+                          filter: blur(5px);
+                          -webkit-tap-highlight-color: transparent;
+                        }
+                                .roma:hover {
+                                  position: absolute;
+                                  width: 28rem;
+                                  margin-top:15rem;
+                                  opacity: 100%;
+                                  margin-left:38rem;
+                                  transition: all ease-in-out 0.4s;
+                                  cursor:pointer;
+                                  border-radius:10%;
+                                  filter: blur(0px);
+                                  cursor:zoom-in;
+                                  -webkit-tap-highlight-color: transparent;
+                                }
+                        .dheefry {
+                          position: absolute;
+                          width: 26rem;
+                          margin-top:15rem;
+                          opacity: 70%;
+                          margin-left:5rem;
+                          transition: all ease-in-out 0.6s;
+                          cursor:pointer;
+                          border-radius:50%;
+                          filter: blur(5px);
+                          -webkit-tap-highlight-color: transparent;
+                        }
+                                .dheefry:hover {
+                                  position: absolute;
+                                  width: 28rem;
+                                  margin-top:15rem;
+                                  margin-left:5.5rem;
+                                  opacity: 100%;
+                                  transition: all ease-in-out 0.6s;
+                                  cursor:pointer;
+                                  border-radius:10%;
+                                  filter: blur(0px);
+                                  cursor:zoom-in;
+                                  -webkit-tap-highlight-color: transparent;
+                                }
+                        .promocao {
+                          position: absolute;
+                          margin-top: 15rem;
+                          margin-left:71.5rem;
+                          opacity: 70%;
+                          width: 26rem;
+                          transition: all ease-in-out 0.6s;
+                          cursor:pointer;
+                          border-radius:50%;
+                          filter: blur(5px);
+                          -webkit-tap-highlight-color: transparent;
+                        }
+                                .promocao:hover {
+                                  position: absolute;
+                                  margin-top: 15rem;
+                                  margin-left:71.5rem;
+                                  width: 28rem;
+                                  opacity: 100%;
+                                  transition: all ease-in-out 0.6s;
+                                  cursor:pointer;
+                                  border-radius:10%;
+                                  filter: blur(0px);
+                                  cursor:zoom-in;
+                                  -webkit-tap-highlight-color: transparent;
+                                }
+                        .element6 {
+                          position: absolute;
+                          margin-top: 32rem;
+                          margin-left:-1rem;
+                          width: 40rem;
+                          transition: all ease-in-out 0.4s;
+                        }
+                        .element6:hover {
+                          position: absolute;
+                          margin-top: 32.8rem;
+                          margin-left:-1.8rem;
+                          opacity: 80%;
+                          transition: all ease-in-out 0.4s;
+                        }
+          .sessao5 {
+            margin-bottom: 5rem;
           }
+                              .spotfy1 {
+                                position: absolute;
+                                margin-top: 9.5rem;
+                                margin-left: 5rem;
+                                opacity: 50%;
+                                width: 20rem;
+                                transition: all ease-in-out 0.6s;
+                                }
+                              .spotfy1:hover {
+                                position: absolute;
+                                margin-top: 9.7rem;
+                                margin-left: 5.2rem;
+                                opacity: 80%;
+                                width: 20rem;
+                                transition: all ease-in-out 0.6s;
+                                }
+                                      .album1 {
+                                        position: absolute;
+                                        width: 12rem;
+                                        margin-top:17.5rem;
+                                        margin-left:9rem;
+                                        border-radius: 50%;
+                                        transition: all ease-in-out 0.6s;
+                                        filter: blur(10px)
+                                        }
+                                      .album1:hover {
+                                        position: absolute;
+                                        width: 17rem;
+                                        margin-top:15rem;
+                                        margin-left:6.4rem;
+                                        border-radius: 10%;
+                                        transition: all ease-in-out 0.6s;
+                                        cursor:zoom-in;
+                                        filter: blur(0px)
+                                        }
+                                .spotfy2 {
+                                  position: absolute;
+                                  margin-top: 9.5rem;
+                                  margin-left: 30rem;
+                                  opacity: 50%;
+                                  width: 20rem;
+                                  transition: all ease-in-out 0.6s;
+                                  }
+                                .spotfy2:hover {
+                                  position: absolute;
+                                  margin-top: 9.7rem;
+                                  margin-left: 30.2rem;
+                                  opacity: 80%;
+                                  width: 20rem;
+                                  transition: all ease-in-out 0.6s;
+                                  }
+                                      .album2 {
+                                        position: absolute;
+                                        width: 12rem;
+                                        margin-top:17.5rem;
+                                        margin-left:34rem;
+                                        border-radius: 50%;
+                                        transition: all ease-in-out 0.6s;
+                                        filter: blur(10px);
+                                        }
+                                      .album2:hover {
+                                        position: absolute;
+                                        width: 17rem;
+                                        margin-top:15rem;
+                                        margin-left:31.4rem;
+                                        border-radius: 10%;
+                                        transition: all ease-in-out 0.6s;
+                                        cursor:zoom-in;
+                                        filter: blur(0px);
+                                        }
+                                .spotfy3 {
+                                  position: absolute;
+                                  margin-top: 9.5rem;
+                                  margin-left: 55rem;
+                                  opacity: 50%;
+                                  width: 20rem;
+                                  transition: all ease-in-out 0.6s;
+                                  }
+                                .spotfy3:hover {
+                                  position: absolute;
+                                  margin-top: 9.7rem;
+                                  margin-left: 55.2rem;
+                                  opacity: 80%;
+                                  width: 20rem;
+                                  transition: all ease-in-out 0.6s;
+                                  }
+                                       .album3 {
+                                          position: absolute;
+                                          width: 12rem;
+                                          margin-top:17.5rem;
+                                          margin-left:59rem;
+                                          border-radius: 50%;
+                                          transition: all ease-in-out 0.6s;
+                                          filter: blur(10px)
+                                          }
+                                        .album3:hover {
+                                          position: absolute;
+                                          width: 17rem;
+                                          margin-top:15rem;
+                                          margin-left:56.5rem;
+                                          border-radius: 10%;
+                                          transition: all ease-in-out 0.6s;
+                                          cursor:zoom-in;
+                                          filter: blur(0px)
+                                          }      
+                                .spotfy4 {
+                                  position: absolute;
+                                  margin-top: 9.5rem;
+                                  margin-left: 80rem;
+                                  opacity: 50%;
+                                  width: 20rem;
+                                  transition: all ease-in-out 0.6s;
+                                  }
+                                .spotfy4:hover {
+                                  position: absolute;
+                                  margin-top: 9.7rem;
+                                  margin-left: 80.2rem;
+                                  opacity: 80%;
+                                  width: 20rem;
+                                  transition: all ease-in-out 0.6s;
+                                  }
+                                       .album4 {
+                                          position: absolute;
+                                          width: 12rem;
+                                          margin-top:17.5rem;
+                                          margin-left:84rem;
+                                          border-radius: 50%;
+                                          transition: all ease-in-out 0.6s;
+                                          filter: blur(10px)
+                                          }
+                                      .album4:hover {
+                                          position: absolute;
+                                          width: 17rem;
+                                          margin-top:15rem;
+                                          margin-left:81.5rem;
+                                          border-radius: 10%;
+                                          transition: all ease-in-out 0.6s;
+                                          cursor:zoom-in;
+                                          filter: blur(0px)
+                                          }
+                                .copyright {
+                                  position: absolute;
+                                  margin-left:28rem;
+                                  margin-top:50rem;
+                                  transition: all ease-in-out 0.6s;
+                                }
+                                .copyright:hover {
+                                  position: absolute;
+                                  margin-left:28.2rem;
+                                  margin-top:50.2rem;
+                                  opacity: 80%;
+                                  transition: all ease-in-out 0.6s;
+                                }
+
+
+@media (min-width:700px) {
+  
+}
